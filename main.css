@@ -25,6 +25,7 @@ body {
   background-position: top;
   background-size: cover;
   background-repeat: no-repeat;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 h1 {
   font-size: 40px;
@@ -55,12 +56,19 @@ p {
   display: flex;
   align-items: center;
   height: 100px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: lightgrey;
 }
 .contactMe, .navIcons {
   flex: 1;
 }
+.contactMe p {
+  font-family: 'Righteous', cursive;
+  color: #17191A;
+}
 .navIcons {
   text-align: right;
+  /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
 }
 .navIcons a, .contactMe a, .contactMe img, .navIcons img {
   display: inline-block;
@@ -94,12 +102,23 @@ ul {
   list-style: none;
   margin-top: 30px;
   line-height: 30px;
+  font-family: 'Fira Sans Condensed', sans-serif;
+  font-size: 30px;
 }
 .landingL {
   margin-top: 4em;
 }
+.landingL h1 {
+  font-family: 'Righteous', cursive;
+  font-size: 50px;
+}
+.landingL p {
+  font-family: 'Fira Sans Condensed', sans-serif;
+  font-size: 40px;
+}
 .landingR {
   border-radius: 20%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .scroll {
   position: absolute;
@@ -117,11 +136,25 @@ ul {
 }
 .skills p {
   margin-bottom: 30px;
+  font-family: 'Source Code Pro', monospace;
+  font-size: 40px;
 }
 .skills img {
   width: 40px;
   margin: 0 15px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+/*----------Projects----------*/
+
+.projects {
+  text-align: center;
+  margin-bottom: 20em;
+}
+
+.projects h1 {
+  font-family: 'Vibes', cursive;
+  font-size: 100px;
+  font-weight: bolder;
 }
 
 /*-----------work 01----------*/
@@ -156,6 +189,7 @@ ul {
 }
 .work ul li {
   margin-top: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 /*-----------work 02-------------*/
@@ -193,6 +227,7 @@ ul {
 }
 .work2 ul li {
   margin-top: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 /*--------work 01 & 02----------*/
